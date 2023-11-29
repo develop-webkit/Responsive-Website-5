@@ -1,0 +1,155 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(min-width: 1440px){
+	.blockchain-sec .container,
+	.resource-sec .container{
+		max-width: 1130px;
+	}
+	.footer .container,
+	.footer-bottom .container{
+		max-width: 1140px;
+	}
+}
+@media(max-width: 1200px){
+	html, body{
+		font-size: 13px;
+	}
+	.bloackchain-box {
+    min-height: 220px;
+}
+}
+@media(max-width: 1024px){
+	html, body{
+		font-size: 11px;
+	}
+	.bloackchain-box {
+    min-height: 170px;
+}
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	html, body{
+		font-size: 14px;
+	}
+	.hero-top-content{
+flex-direction: column;
+}
+.hero-top-content .text-center{
+order:2;
+}
+.hero-sec h1{
+font-size: 6rem;
+}
+.hero-sec p {
+    font-size: 1.4rem;
+}
+.logo{
+display: none;
+}
+.hero-sec .hero-top-content img{
+margin: auto;
+display: block;
+width: 10rem;
+height: 10rem;
+}
+.nav ul li a{
+font-weight: 400;
+font-size: .9rem;
+}
+.nav ul{
+justify-content: center;
+display: flex;
+width: 100%;
+}
+.nav {
+    padding: 1rem 0;
+}
+.nav ul li{
+margin: 0 .7rem;
+}
+.hero-buttons button{
+font-size: 1rem;
+}
+.blockchain-sec h1{
+font-size: 2.1rem;
+}
+.blockchain-sec h2{
+font-size: 1.5rem;
+}
+.blockchain-sec h3{
+font-size: 1rem;
+}
+.bloackchain-box{
+min-height: initial;
+margin-top: 1.5rem !important;
+height: initial;
+max-width: calc(100% - 2rem);
+margin: auto;
+}
+.scrollbar-track-y{
+opacity:1;
+}
+.scroll-content{
+padding-right: 8px;
+}
+.partner-sec h1{
+font-size: 1.5rem;
+}
+.partner-sec .partner-img-sec{
+display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+.resource-sec h2{
+font-size: 1.5rem;
+}
+.resource-sec{
+padding: 0 1.5rem;
+}
+.resource-sec p{
+font-size: 1.1rem;
+}
+.resource-sec a{
+margin: auto;
+display: block;
+width: 5.5em;
+text-align: center;
+margin-top: 2rem;
+}
+.footer-left-img{
+display: none;
+}
+.footer-right h2{
+text-align: left;
+padding-left: 1rem;
+}
+.footer-right .text-right,
+.footer-right hr,
+.footer-left hr,
+.footer-left div{
+width: 100%;
+}
+.footer-left{
+margin-bottom: 3rem;
+}
+.social-links1{
+justify-content: start;
+}
+.social-links1 svg{
+margin-right: 1rem;
+margin-left:0;
+}
+}
